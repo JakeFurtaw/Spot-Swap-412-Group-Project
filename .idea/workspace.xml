@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing" />
+    <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,8 @@
       <workItem from="1663098514745" duration="102000" />
       <workItem from="1663098722869" duration="459000" />
       <workItem from="1663099316652" duration="195000" />
-      <workItem from="1663099529490" duration="249000" />
+      <workItem from="1663099529490" duration="438000" />
+      <workItem from="1663101734300" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="testing ethan">
       <created>1663098755972</created>
@@ -97,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663099553654</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="removed testing">
+      <created>1663099813298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663099813298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
