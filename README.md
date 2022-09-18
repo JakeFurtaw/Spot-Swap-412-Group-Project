@@ -9,5 +9,5 @@ Users will create and account on the app, communicate within the app to swap spo
 
 Updates:
 ------------------------------------------------------------------
-Version 1.0:(Inital Release)
+Version 1.0:
 -
