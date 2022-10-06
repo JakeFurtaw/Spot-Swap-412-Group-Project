@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing">
+      <change afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/drawable/cooppark_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidStudio/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
