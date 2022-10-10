@@ -1,5 +1,5 @@
 # Caffeine Overflow Group Project ReadMe
-By: Quentin, Ethan, Danny, Jake, and Grace 
+By: Quentin, Ethan, Danny, Jake, and Grace. 
 
 What is TU Spot Swap?
 ------------------------------------------------------------------
