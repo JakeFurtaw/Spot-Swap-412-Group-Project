@@ -20,9 +20,14 @@
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
         <action
-            android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap2"
+            android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap"
             app:destination="@id/fragment_glenngaragemap" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment_glenngaragemap"
+        android:name="com.example.myapplication.fragment_glenngaragemap"
+        android:label="fragment_glenngaragemap"
+        tools:layout="@layout/fragment_glenngaragemap" />
     <fragment
         android:id="@+id/fragment_login"
         android:name="com.example.myapplication.ui.login.fragment_login"
@@ -32,9 +37,4 @@
             android:id="@+id/action_fragment_login_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/fragment_glenngaragemap"
-        android:name="com.example.myapplication.fragment_glenngaragemap"
-        android:label="fragment_glenngaragemap"
-        tools:layout="@layout/fragment_glenngaragemap" />
 </navigation>
