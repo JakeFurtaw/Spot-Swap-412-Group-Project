@@ -78,15 +78,17 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="263dp"
-        android:layout_height="310dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="27dp"
-        android:src="@drawable/cooppark_1"
+        android:layout_width="254dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/_ca7a36d_c273_4626_b44d_04141aff173f"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login" />
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
