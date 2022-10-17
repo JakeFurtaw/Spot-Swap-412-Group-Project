@@ -30,7 +30,11 @@
         android:id="@+id/fragment_login"
         android:name="com.example.myapplication.ui.login.fragment_login"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_glenngaragemap"
         android:name="com.example.myapplication.fragment_glenngaragemap"
@@ -40,5 +44,9 @@
         android:id="@+id/register"
         android:name="com.example.myapplication.ui.login.Register"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_register_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
 </navigation>
