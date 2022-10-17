@@ -11,11 +11,11 @@
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-        <action
             android:id="@+id/action_FirstFragment_to_fragment_login"
             app:destination="@id/fragment_login" />
+        <action
+            android:id="@+id/action_FirstFragment_to_register"
+            app:destination="@id/register" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -36,4 +36,9 @@
         android:name="com.example.myapplication.fragment_glenngaragemap"
         android:label="fragment_glenngaragemap"
         tools:layout="@layout/fragment_glenngaragemap" />
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.myapplication.ui.login.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
 </navigation>
