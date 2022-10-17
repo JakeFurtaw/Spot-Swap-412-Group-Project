@@ -48,6 +48,7 @@ public class Register extends Fragment {
                 .get(LoginViewModel.class);
 
         final EditText nameEditText = binding.name;
+        final EditText emailEditText = binding.email;
         final EditText usernameEditText = binding.username;
         final EditText passwordEditText = binding.password;
         final Button loginButton = binding.login;
