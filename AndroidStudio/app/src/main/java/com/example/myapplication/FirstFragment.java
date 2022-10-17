@@ -32,7 +32,7 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_fragment_login);
+                        .navigate(R.id.action_FirstFragment_to_register);
             }
         });
 
@@ -40,7 +40,7 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_register);
+                        .navigate(R.id.action_FirstFragment_to_fragment_login);
             }
         });
     }
