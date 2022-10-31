@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link fragment_spot_finder#newInstance} factory method to
+ * Use the {@link SpotFinderFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class fragment_spot_finder extends Fragment {
+public class SpotFinderFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class fragment_spot_finder extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public fragment_spot_finder() {
+    public SpotFinderFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +37,8 @@ public class fragment_spot_finder extends Fragment {
      * @return A new instance of fragment fragment_glenngaragemap.
      */
     // TODO: Rename and change types and number of parameters
-    public static fragment_spot_finder newInstance(String param1, String param2) {
-        fragment_spot_finder fragment = new fragment_spot_finder();
+    public static SpotFinderFragment newInstance(String param1, String param2) {
+        SpotFinderFragment fragment = new SpotFinderFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

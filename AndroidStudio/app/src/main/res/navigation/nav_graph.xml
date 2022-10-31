@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/WelcomeFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.myapplication.FirstFragment"
+        android:id="@+id/WelcomeFragment"
+        android:name="com.example.myapplication.WelcomeFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_welcome">
         <action
             android:id="@+id/action_FirstFragment_to_fragment_login"
             app:destination="@id/fragment_login" />
@@ -40,9 +40,13 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_spot_finder"
-        android:name="com.example.myapplication.fragment_spot_finder"
+        android:name="com.example.myapplication.SpotFinderFragment"
         android:label="fragment_spot_finder"
-        tools:layout="@layout/fragment_spot_finder" />
+        tools:layout="@layout/fragment_spot_finder" >
+        <action
+            android:id="@+id/action_fragment_spot_finder_to_spotInfoFragment"
+            app:destination="@id/spotInfoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/register"
         android:name="com.example.myapplication.ui.login.Register"
@@ -66,4 +70,9 @@
         android:name="com.example.myapplication.AccountInfo"
         android:label="fragment_account_info"
         tools:layout="@layout/fragment_account_info" />
+    <fragment
+        android:id="@+id/spotInfoFragment"
+        android:name="com.example.myapplication.SpotInfoFragment"
+        android:label="fragment_spot_info"
+        tools:layout="@layout/fragment_spot_info" />
 </navigation>
