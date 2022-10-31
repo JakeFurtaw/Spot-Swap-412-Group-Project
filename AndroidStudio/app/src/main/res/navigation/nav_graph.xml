@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap2"
             app:destination="@id/fragment_spot_finder" />
+        <action
+            android:id="@+id/action_HomePage_to_messagingFragment"
+            app:destination="@id/messagingFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
@@ -75,4 +78,9 @@
         android:name="com.example.myapplication.SpotInfoFragment"
         android:label="fragment_spot_info"
         tools:layout="@layout/fragment_spot_info" />
+    <fragment
+        android:id="@+id/messagingFragment"
+        android:name="com.example.myapplication.MessagingFragment"
+        android:label="fragment_messaging"
+        tools:layout="@layout/fragment_messaging" />
 </navigation>
