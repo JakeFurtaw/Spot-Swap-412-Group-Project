@@ -18,13 +18,13 @@
             app:destination="@id/register" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.myapplication.SecondFragment"
+        android:id="@+id/HomePage"
+        android:name="com.example.myapplication.HomePageFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_homepage">
         <action
             android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap2"
-            app:destination="@id/fragment_glenngaragemap" />
+            app:destination="@id/fragment_spot_finder" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
@@ -33,13 +33,16 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_fragment_login_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/HomePage" />
+        <action
+            android:id="@+id/action_fragment_login_to_settingsFragment2"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/fragment_glenngaragemap"
-        android:name="com.example.myapplication.fragment_glenngaragemap"
-        android:label="fragment_glenngaragemap"
-        tools:layout="@layout/fragment_glenngaragemap" />
+        android:id="@+id/fragment_spot_finder"
+        android:name="com.example.myapplication.fragment_spot_finder"
+        android:label="fragment_spot_finder"
+        tools:layout="@layout/fragment_spot_finder" />
     <fragment
         android:id="@+id/register"
         android:name="com.example.myapplication.ui.login.Register"
@@ -49,4 +52,18 @@
             android:id="@+id/action_register_to_fragment_login"
             app:destination="@id/fragment_login" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.myapplication.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_accountInfo"
+            app:destination="@id/accountInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountInfo"
+        android:name="com.example.myapplication.AccountInfo"
+        android:label="fragment_account_info"
+        tools:layout="@layout/fragment_account_info" />
 </navigation>
