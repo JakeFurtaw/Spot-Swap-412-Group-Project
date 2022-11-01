@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_HomePage_to_messagingFragment"
             app:destination="@id/messagingFragment" />
+        <action
+            android:id="@+id/action_HomePage_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
@@ -37,9 +40,6 @@
         <action
             android:id="@+id/action_fragment_login_to_SecondFragment"
             app:destination="@id/HomePage" />
-        <action
-            android:id="@+id/action_fragment_login_to_settingsFragment2"
-            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_spot_finder"
