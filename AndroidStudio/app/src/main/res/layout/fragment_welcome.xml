@@ -51,20 +51,21 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="286dp"
-        android:layout_height="322dp"
+        android:layout_width="342dp"
+        android:layout_height="385dp"
         android:layout_marginStart="62dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="174dp"
+        android:alpha=".75"
         android:foregroundTint="#FDD835"
         android:src="@drawable/_ca7a36d_c273_4626_b44d_04141aff173f"
         app:layout_constraintBottom_toTopOf="@+id/button_first2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.25"
         tools:visibility="visible" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
