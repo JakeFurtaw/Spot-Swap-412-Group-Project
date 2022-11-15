@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFF9C4"
+    android:backgroundTint="#FFF9C4"
     tools:context=".HomePageFragment">
 
     <TextView
@@ -20,7 +22,10 @@
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FDD835"
+        android:backgroundTint="#FFF9C4"
         android:text="To Spot Finder Page"
+        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +39,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="405dp"
-        android:background="#FFEB3B"
+        android:background="#FDD835"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toTopOf="@+id/button_second"
