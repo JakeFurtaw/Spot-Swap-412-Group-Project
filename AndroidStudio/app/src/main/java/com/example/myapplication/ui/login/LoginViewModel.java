@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
+import com.example.myapplication.data.UserRepository;
 import com.example.myapplication.data.LoginRepository;
 import com.example.myapplication.data.Result;
 import com.example.myapplication.data.model.LoggedInUser;
@@ -16,6 +17,7 @@ public class LoginViewModel extends ViewModel {
     private MutableLiveData<LoginFormState> loginFormState = new MutableLiveData<>();
     private MutableLiveData<LoginResult> loginResult = new MutableLiveData<>();
     private LoginRepository loginRepository;
+    private UserRepository userRepository;
 
     LoginViewModel(LoginRepository loginRepository) {
         this.loginRepository = loginRepository;
@@ -29,6 +31,17 @@ public class LoginViewModel extends ViewModel {
         return loginResult;
     }
 
+    public void register(String username, String password) {
+        // can be launched in a separate asynchronous job
+        Result<LoggedInUser> result = userRepository.register(username, password);
+
+        if (result instanceof Result.Success) {
+            LoggedInUser data = ((Result.Success<LoggedInUser>) result).getData();
+            loginResult.setValue(new LoginResult(new LoggedInUserView(data.getDisplayName())));
+        } else {
+            loginResult.setValue(new LoginResult(R.string.login_failed));
+        }
+    }
     public void login(String username, String password) {
         // can be launched in a separate asynchronous job
         Result<LoggedInUser> result = loginRepository.login(username, password);

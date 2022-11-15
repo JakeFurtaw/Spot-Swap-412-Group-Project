@@ -47,10 +47,10 @@ public class Register extends Fragment {
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
-        final EditText nameEditText = binding.name;
-        final EditText emailEditText = binding.email;
         final EditText usernameEditText = binding.username;
         final EditText passwordEditText = binding.password;
+        final EditText emailEditText = binding.email;
+        final EditText nameEditText = binding.name;
         final Button loginButton = binding.login;
         final ProgressBar loadingProgressBar = binding.loading;
 
@@ -66,6 +66,12 @@ public class Register extends Fragment {
                 }
                 if (loginFormState.getPasswordError() != null) {
                     passwordEditText.setError(getString(loginFormState.getPasswordError()));
+                }
+                if (loginFormState.getEmailError() != null) {
+                    emailEditText.setError(getString(loginFormState.getUsernameError()));
+                }
+                if (loginFormState.getNameError() != null) {
+                    nameEditText.setError(getString(loginFormState.getPasswordError()));
                 }
             }
         });
@@ -110,7 +116,7 @@ public class Register extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_DONE) {
-                    loginViewModel.login(usernameEditText.getText().toString(),
+                    loginViewModel.register(usernameEditText.getText().toString(),
                             passwordEditText.getText().toString());
                 }
                 return false;
@@ -121,7 +127,7 @@ public class Register extends Fragment {
             @Override
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
+                loginViewModel.register(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
             }
         });
