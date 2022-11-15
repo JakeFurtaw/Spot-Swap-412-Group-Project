@@ -5,4 +5,5 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MessagingFragment"/>
+    android:background="#FFF9C4"
+    tools:context=".MessagingFragment" />

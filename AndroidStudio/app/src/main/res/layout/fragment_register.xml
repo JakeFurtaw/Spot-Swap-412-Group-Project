@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFF9C4"
     android:paddingLeft="@dimen/fragment_horizontal_margin"
     android:paddingTop="@dimen/fragment_vertical_margin"
     android:paddingRight="@dimen/fragment_horizontal_margin"
@@ -20,6 +21,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/email"
@@ -28,8 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:text="@string/prompt_name"
-        android:importantForAutofill="no" />
+        tools:text="@string/prompt_name" />
 
     <EditText
         android:id="@+id/email"
@@ -39,14 +40,14 @@
         android:layout_marginTop="196dp"
         android:layout_marginEnd="24dp"
         android:hint="@string/prompt_email"
+        android:importantForAutofill="no"
         android:inputType="textWebEmailAddress"
         android:minHeight="48dp"
         android:saveEnabled="true"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/username"
@@ -56,14 +57,14 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="24dp"
         android:hint="@string/prompt_username"
+        android:importantForAutofill="no"
         android:inputType="textUri"
         android:minHeight="48dp"
         android:saveEnabled="true"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/password"
@@ -75,6 +76,7 @@
         android:hint="@string/prompt_password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:isScrollContainer="false"
         android:minHeight="48dp"
@@ -83,8 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
         android:id="@+id/login"
@@ -95,6 +96,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="64dp"
+        android:background="#FFF9C4"
         android:enabled="true"
         android:text="@string/register_now"
         app:layout_constraintBottom_toBottomOf="parent"
