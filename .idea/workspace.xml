@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing" />
+    <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing">
+      <change beforePath="$PROJECT_DIR$/.idea/COSC412.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COSC412.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
