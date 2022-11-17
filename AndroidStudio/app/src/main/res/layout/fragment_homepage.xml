@@ -20,12 +20,12 @@
 
     <Button
         android:id="@+id/button_second"
+        android:background="@android:color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FDD835"
-        android:backgroundTint="#FFF9C4"
+        android:textColor="#17171B"
+        app:backgroundTint="@color/white"
         android:text="To Spot Finder Page"
-        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
