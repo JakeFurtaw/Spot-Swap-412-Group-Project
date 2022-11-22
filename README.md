@@ -10,5 +10,11 @@ Users will create and account on the app, communicate within the app to swap spo
 
 Updates:
 ------------------------------------------------------------------
+Version .01
+-Adding Login and Register Features, working on getting user database setup and working.
+-Creating messaging fragments and setting up the ability to impliment this in the near future.
+-Started customizing fragments look with new background color, transparent logo, and new button design.
+
+
 Version 1.0:
 -
