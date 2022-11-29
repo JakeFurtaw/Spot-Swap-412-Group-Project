@@ -29,11 +29,25 @@ public class HomePageFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
+        binding.toMessagesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(HomePageFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_fragment_glenngaragemap2);
+                        .navigate(R.id.action_HomePage_to_messagingFragment);
+            }
+        });
+        binding.toSpotFinderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomePageFragment.this)
+                        .navigate(R.id.action_HomePage_to_SpotFinderFragment);
+            }
+        });
+        binding.settingsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomePageFragment.this)
+                        .navigate(R.id.action_HomePage_to_settingsFragment);
             }
         });
     }

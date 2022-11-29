@@ -23,11 +23,14 @@
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_homepage">
         <action
-            android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap2"
+            android:id="@+id/action_HomePage_to_SpotFinderFragment"
             app:destination="@id/fragment_spot_finder" />
         <action
             android:id="@+id/action_HomePage_to_messagingFragment"
             app:destination="@id/messagingFragment" />
+        <action
+            android:id="@+id/action_HomePage_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
