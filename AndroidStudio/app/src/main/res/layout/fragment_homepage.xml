@@ -20,12 +20,12 @@
 
     <Button
         android:id="@+id/button_second"
-        android:background="@android:color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#17171B"
-        app:backgroundTint="@color/white"
+        android:background="@android:color/black"
         android:text="To Spot Finder Page"
+        android:textColor="#757575"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +33,12 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="405dp"
-        android:background="#FDD835"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toTopOf="@+id/button_second"

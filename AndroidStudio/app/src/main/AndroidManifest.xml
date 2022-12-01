@@ -17,25 +17,6 @@
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
 
-        <service
-            android:name=".MyMessagingService"
-            android:exported="true" />
-
-        <receiver
-            android:name=".MessageReadReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.myapplication.ACTION_MESSAGE_READ" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name=".MessageReplyReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.example.myapplication.ACTION_MESSAGE_REPLY" />
-            </intent-filter>
-        </receiver>
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
