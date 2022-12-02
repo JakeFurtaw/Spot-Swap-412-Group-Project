@@ -11,7 +11,8 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.myapplication.databinding.FragmentHomepageBinding;
 
-public class HomePageFragment extends Fragment {
+public class HomePageFragment extends Fragment
+{
 
     private FragmentHomepageBinding binding;
 
@@ -25,7 +26,6 @@ public class HomePageFragment extends Fragment {
         return binding.getRoot();
 
     }
-
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -37,7 +37,6 @@ public class HomePageFragment extends Fragment {
             }
         });
     }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

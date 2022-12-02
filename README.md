@@ -15,6 +15,5 @@ Version .01
 -Creating messaging fragments and setting up the ability to implement this in the near future.
 -Started customizing fragments look with new background color, transparent logo, and new button design.
 
-
 Version 1.0:
 -

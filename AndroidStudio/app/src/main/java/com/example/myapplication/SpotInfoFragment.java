@@ -13,7 +13,8 @@ import android.view.ViewGroup;
  * Use the {@link SpotInfoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SpotInfoFragment extends Fragment {
+public class SpotInfoFragment extends Fragment
+{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +25,8 @@ public class SpotInfoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public SpotInfoFragment() {
+    public SpotInfoFragment()
+    {
         // Required empty public constructor
     }
 
@@ -37,7 +39,8 @@ public class SpotInfoFragment extends Fragment {
      * @return A new instance of fragment SpotInfoFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SpotInfoFragment newInstance(String param1, String param2) {
+    public static SpotInfoFragment newInstance(String param1, String param2)
+    {
         SpotInfoFragment fragment = new SpotInfoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -47,7 +50,8 @@ public class SpotInfoFragment extends Fragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);

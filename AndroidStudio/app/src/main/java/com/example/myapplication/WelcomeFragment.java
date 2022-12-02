@@ -11,7 +11,8 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.myapplication.databinding.FragmentWelcomeBinding;
 
-public class WelcomeFragment extends Fragment {
+public class WelcomeFragment extends Fragment
+{
 
     private @NonNull FragmentWelcomeBinding binding;
 
@@ -26,9 +27,11 @@ public class WelcomeFragment extends Fragment {
 
     }
 
-    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState)
+    {
         super.onViewCreated(view, savedInstanceState);
-        binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
+        binding.buttonFirst.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(WelcomeFragment.this)
@@ -36,7 +39,8 @@ public class WelcomeFragment extends Fragment {
             }
         });
 
-        binding.buttonFirst2.setOnClickListener(new View.OnClickListener() {
+        binding.buttonFirst2.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(WelcomeFragment.this)
@@ -46,7 +50,8 @@ public class WelcomeFragment extends Fragment {
     }
 
     @Override
-    public void onDestroyView() {
+    public void onDestroyView()
+    {
         super.onDestroyView();
         binding = null;
     }
