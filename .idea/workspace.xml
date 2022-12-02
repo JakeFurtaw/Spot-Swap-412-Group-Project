@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing">
-      <change afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/MessageReadReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/MessageReplyReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/MessagingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/MyMessagingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/ScrollingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_homepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_homepage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/AccountInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/AccountInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
