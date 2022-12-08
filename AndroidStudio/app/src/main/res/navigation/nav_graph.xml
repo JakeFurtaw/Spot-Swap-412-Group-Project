@@ -14,7 +14,7 @@
             android:id="@+id/action_FirstFragment_to_fragment_login"
             app:destination="@id/fragment_login" />
         <action
-            android:id="@+id/action_FirstFragment_to_register"
+            android:id="@+id/action_WelcomeFragment_to_register"
             app:destination="@id/register" />
     </fragment>
     <fragment
@@ -23,11 +23,11 @@
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_homepage">
         <action
-            android:id="@+id/action_SecondFragment_to_fragment_glenngaragemap2"
+            android:id="@+id/action_HomePageFragment_to_SpotFinderFragment"
             app:destination="@id/fragment_spot_finder" />
         <action
-            android:id="@+id/action_HomePage_to_messagingFragment"
-            app:destination="@id/messagingFragment" />
+            android:id="@+id/action_HomePage_to_messages"
+            app:destination="@id/messages" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
@@ -35,7 +35,7 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_fragment_login_to_SecondFragment"
+            android:id="@+id/action_fragment_login_to_HomePageFragment"
             app:destination="@id/HomePage" />
         <action
             android:id="@+id/action_fragment_login_to_settingsFragment2"
@@ -79,8 +79,7 @@
         android:label="fragment_spot_info"
         tools:layout="@layout/fragment_spot_info" />
     <fragment
-        android:id="@+id/messagingFragment"
-        android:name="com.example.myapplication.MessagingFragment"
-        android:label="fragment_messaging"
-        tools:layout="@layout/fragment_messaging" />
+        android:id="@+id/messages"
+        android:name="com.example.myapplication.Messages"
+        android:label="Messages" />
 </navigation>

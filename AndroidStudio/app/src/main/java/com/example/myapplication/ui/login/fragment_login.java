@@ -22,7 +22,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication.HomePageFragment;
 import com.example.myapplication.databinding.FragmentLoginBinding;
 
 import com.example.myapplication.R;
@@ -123,7 +122,7 @@ public class fragment_login extends Fragment {
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
-                NavHostFragment.findNavController(fragment_login.this).navigate(R.id.action_fragment_login_to_SecondFragment);
+                NavHostFragment.findNavController(fragment_login.this).navigate(R.id.action_fragment_login_to_HomePageFragment);
             }
         });
     }

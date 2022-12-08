@@ -35,7 +35,7 @@ public class WelcomeFragment extends Fragment
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(WelcomeFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_register);
+                        .navigate(R.id.action_WelcomeFragment_to_register);
             }
         });
 

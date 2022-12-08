@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249eb9bd-5112-4bca-baec-fc6fd45927e1" name="Changes" comment="removed testing">
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/AccountInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/AccountInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_messages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/HomePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/HomePageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/WelcomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/WelcomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/ui/login/fragment_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/java/com/example/myapplication/ui/login/fragment_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_homepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_homepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/layout/fragment_messaging.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AndroidStudio" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
