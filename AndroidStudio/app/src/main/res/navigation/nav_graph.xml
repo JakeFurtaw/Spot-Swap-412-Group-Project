@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_HomePage_to_messages"
             app:destination="@id/messages" />
+        <action
+            android:id="@+id/action_HomePage_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_login"
@@ -49,6 +52,15 @@
         <action
             android:id="@+id/action_fragment_spot_finder_to_spotInfoFragment"
             app:destination="@id/spotInfoFragment" />
+        <action
+            android:id="@+id/action_fragment_spot_finder_to_HomePage"
+            app:destination="@id/HomePage" />
+        <action
+            android:id="@+id/action_fragment_spot_finder_to_messages"
+            app:destination="@id/messages" />
+        <action
+            android:id="@+id/action_fragment_spot_finder_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/register"
@@ -81,5 +93,15 @@
     <fragment
         android:id="@+id/messages"
         android:name="com.example.myapplication.Messages"
-        android:label="Messages" />
+        android:label="Messages" >
+        <action
+            android:id="@+id/action_messages_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_messages_to_fragment_spot_finder"
+            app:destination="@id/fragment_spot_finder" />
+        <action
+            android:id="@+id/action_messages_to_HomePage"
+            app:destination="@id/HomePage" />
+    </fragment>
 </navigation>

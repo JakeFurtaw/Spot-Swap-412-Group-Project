@@ -43,6 +43,13 @@ public class HomePageFragment extends Fragment
                         .navigate(R.id.action_HomePage_to_messages);
             }
         });
+        binding.settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomePageFragment.this)
+                        .navigate(R.id.action_HomePage_to_settingsFragment);
+            }
+        });
     }
     @Override
     public void onDestroyView() {
